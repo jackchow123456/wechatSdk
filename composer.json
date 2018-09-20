@@ -1,0 +1,28 @@
+{
+    "name": "jackchow/wechat",
+    "description": "a wechat sdk.",
+    "keywords": ["WeChat", "sdk"],
+
+    "autoload": {
+        "psr-4": {
+            "JackChow\\WeChat\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~5.0|~6.0",
+        "symfony/http-foundation": "^2.7|^3.0|^4.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jackchow",
+            "email": "775893055@qq.com"
+        }
+    ]
+}
